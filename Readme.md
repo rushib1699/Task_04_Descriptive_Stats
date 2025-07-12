@@ -40,17 +40,6 @@ bash
           -O data/titanic.csv
 
 
-2. **Iris Flower Measurements**  
-   - **URL:**  
-
-     https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv
-
-   - **Download example:**  
-
-     wget https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv \
-          -O data/iris.csv
- 
-
 ---
 
 ## Prerequisites
@@ -76,7 +65,7 @@ Run any script with a CSV filepath and optional grouping columns:
 
 ```bash
 # Pure Python version
-python analyze_pure.py <csv_file> [group_col1 [group_col2 ...]]
+python pure_python_csv.py <csv_file> [group_col1 [group_col2 ...]]
 
 # Pandas version
 python pandas_stats.py <csv_file> [group_col1 [group_col2 ...]]
