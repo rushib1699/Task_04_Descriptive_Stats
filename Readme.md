@@ -1,4 +1,4 @@
-````markdown
+
 # Descriptive Analysis Scripts
 
 A set of three standalone Python scripts to compute basic descriptive statistics on CSV datasets using:
@@ -31,25 +31,25 @@ These are example public datasets. **Do not** commit the raw CSVs—record only 
 
 1. **Titanic Passenger Manifest**  
    - **URL:**  
-     ```
+
      https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
-     ```  
+  
    - **Download example:**  
-     ```bash
+bash
      wget https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv \
           -O data/titanic.csv
-     ```
+
 
 2. **Iris Flower Measurements**  
    - **URL:**  
-     ```
+
      https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv
-     ```  
+
    - **Download example:**  
-     ```bash
+
      wget https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv \
           -O data/iris.csv
-     ```
+ 
 
 ---
 
@@ -63,10 +63,10 @@ These are example public datasets. **Do not** commit the raw CSVs—record only 
 
 Install the required libraries for the Pandas and Polars scripts:
 
-```bash
+
 pip install pandas
 pip install polars
-````
+
 
 ---
 
